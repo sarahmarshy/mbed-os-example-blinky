@@ -5,7 +5,12 @@
             "platform.heap-stats-enabled": true,
             "platform.cpu-stats-enabled": true,
             "platform.thread-stats-enabled": true,
+            "platform.stdio-baud-rate": 9600,
             "platform.sys-stats-enabled": true
-        }
+        },
+        "NUCLEO_L073RZ": {
+            "target.app_offset" : "0x1a800",
+            "target.bootloader_img" : "bootloader.bin"
+        } 
     }
 }
